@@ -365,12 +365,14 @@ body{
     font-family: 'Inika', serif;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-size: 16px;
+    font-size: 22px;
 }
 .wrapper {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1410px;
     margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 body {
     color: #b6b195;
@@ -379,16 +381,16 @@ body {
   h1 {
     text-align: center;
     color: black;
-    font-size: 36px;
+    font-size: 40px;
     padding: 30px 0;
   }
   .accordeon-wrapper {
     margin: 0 auto;
-    width: 1000px;
+    max-width: 1000px;
   }
   /* Acordeon styles */
   .tab {
-    position: relative;
+    position: static;
     margin-bottom: 1px;
     width: 100%;
     color: #fff;
@@ -421,10 +423,9 @@ body {
     cursor: pointer;
   }
  .meme-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  }
   .img {
     max-width: 500px;
